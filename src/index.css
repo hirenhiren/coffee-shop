@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  
+  @keyframes continuous-spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  [data-aos="continuous-spin"] {
+    animation: continuous-spin 15s linear infinite;
+  }
+  
+
+  .pattaya-regular {
+    font-family: "Pattaya", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+  
+  
